@@ -15,6 +15,7 @@ namespace BDMCoupon
 {
     public partial class MainForm : Form
     {
+        int i = 0;
         ChromeDriverUpdater.ChromeDriverUpdater updater;
         ChromeDriverService chromeDriverService;
         ChromeDriver chromeDriver;
